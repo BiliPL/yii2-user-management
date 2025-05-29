@@ -2,7 +2,7 @@
 namespace bilipl\modules\UserManagement\components;
 
 use bilipl\modules\UserManagement\models\User;
-use yii\bootstrap\Nav;
+use yii\bootstrap5\Nav;
 
 /**
  * Class GhostNav
