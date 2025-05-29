@@ -10,14 +10,14 @@ use yii\bootstrap5\ActiveForm;
 use yii\helpers\Html;
 ?>
 
-<div class="container" id="login-wrapper">
-	<div class="row">
-		<div class="col-md-4 col-md-offset-4">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h3 class="panel-title"><?= UserManagementModule::t('front', 'Authorization') ?></h3>
-				</div>
-				<div class="panel-body">
+    <div class="container" id="login-wrapper">
+        <div class="row justify-content-center"> <!-- Dodano `justify-content-center` -->
+            <div class="col-md-4 mx-auto"> <!-- Zmieniono `col-md-offset-4` na `mx-auto` -->
+                <div class="card"> <!-- Zmieniono `panel panel-default` -->
+                    <div class="card-header"> <!-- Zmieniono `panel-heading` -->
+                        <h3 class="card-title"><?= UserManagementModule::t('front', 'Authorization') ?></h3>
+                    </div>
+                    <div class="card-body"> <!-- Zmieniono `panel-body` -->
 
 					<?php $form = ActiveForm::begin([
 						'id'      => 'login-form',
@@ -36,19 +36,20 @@ use yii\helpers\Html;
 
 					<?= (isset(Yii::$app->user->enableAutoLogin) && Yii::$app->user->enableAutoLogin) ? $form->field($model, 'rememberMe')->checkbox(['value'=>true]) : '' ?>
 
-					<?= Html::submitButton(
-						UserManagementModule::t('front', 'Login'),
-						['class' => 'btn btn-lg btn-primary btn-block']
-					) ?>
+                        <?= Html::submitButton(
+                            UserManagementModule::t('front', 'Login'),
+                            ['class' => 'btn btn-lg btn-primary w-100'] // Zmieniono `btn-block` na `w-100`
+                        ) ?>
 
-					<div class="row registration-block">
-						<div class="col-sm-6">
+
+                        <div class="row registration-block">
+						<div class="col-6">
 							<?= GhostHtml::a(
 								UserManagementModule::t('front', "Registration"),
 								['/user-management/auth/registration']
 							) ?>
 						</div>
-						<div class="col-sm-6 text-right">
+						<div class="col-6 text-end">
 							<?= GhostHtml::a(
 								UserManagementModule::t('front', "Forgot password ?"),
 								['/user-management/auth/password-recovery']
@@ -70,11 +71,8 @@ use yii\helpers\Html;
 $css = <<<CSS
 html, body {
 	background: #eee;
-	-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-	box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+	box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
 	height: 100%;
-	min-height: 100%;
-	position: relative;
 }
 #login-wrapper {
 	position: relative;
