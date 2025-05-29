@@ -1,14 +1,14 @@
 <?php
 
 use bilipl\modules\UserManagement\models\User;
-use webvimark\extensions\BootstrapSwitch\BootstrapSwitch;
+use bilipl\extensions\BootstrapSwitch\BootstrapSwitch;
 use bilipl\modules\UserManagement\UserManagementModule;
 use yii\bootstrap5\ActiveForm;
 use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\User $model
+ * @var bilipl\modules\UserManagement\models\User $model
  */
 
 $this->title = UserManagementModule::t('back', 'Editing user: ') . ' ' . $model->username;

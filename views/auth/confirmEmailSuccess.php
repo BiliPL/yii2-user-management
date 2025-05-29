@@ -5,7 +5,7 @@ use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\User $user
+ * @var bilipl\modules\UserManagement\models\User $user
  */
 
 $this->title = UserManagementModule::t('front', 'E-mail confirmed');

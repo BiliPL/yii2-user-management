@@ -2,11 +2,11 @@
 
 namespace bilipl\modules\UserManagement\models;
 
-use Ikimea\Browser\Browser;
-use webvimark\helpers\LittleBigHelper;
+use bilipl\modules\UserManagement\browser\lib\Ikimea\Browser\Browser;
+use bilipl\modules\UserManagement\helpers\LittleBigHelper;
 use bilipl\modules\UserManagement\UserManagementModule;
 use Yii;
-
+use bilipl\modules\UserManagement\components\BaseActiveRecord;
 /**
  * This is the model class for table "user_visit_log".
  *
@@ -22,7 +22,7 @@ use Yii;
  *
  * @property User $user
  */
-class UserVisitLog extends \webvimark\components\BaseActiveRecord
+class UserVisitLog extends BaseActiveRecord
 {
 	CONST SESSION_TOKEN = '__visitorToken';
 

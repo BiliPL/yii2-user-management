@@ -7,14 +7,14 @@ use Yii;
 
 /**
  * Class UserConfig
- * @package webvimark\modules\UserManagement\components
+ * @package bilipl\modules\UserManagement\components
  */
 class UserConfig extends User
 {
 	/**
 	 * @inheritdoc
 	 */
-	public $identityClass = 'webvimark\modules\UserManagement\models\User';
+	public $identityClass = 'bilipl\modules\UserManagement\models\User';
 
 	/**
 	 * @inheritdoc

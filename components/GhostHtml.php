@@ -2,7 +2,6 @@
 /**
  * @var $this yii\web\View
  */
-
 namespace bilipl\modules\UserManagement\components;
 
 use bilipl\modules\UserManagement\models\User;
@@ -13,7 +12,7 @@ use yii\helpers\Html;
  *
  * Show elements only to those, who can access to them
  *
- * @package webvimark\modules\UserManagement\components
+ * @package bilipl\modules\UserManagement\components
  */
 class GhostHtml extends Html
 {

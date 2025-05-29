@@ -9,7 +9,7 @@ use yii\data\ActiveDataProvider;
 use bilipl\modules\UserManagement\models\UserVisitLog;
 
 /**
- * UserVisitLogSearch represents the model behind the search form about `webvimark\modules\UserManagement\models\UserVisitLog`.
+ * UserVisitLogSearch represents the model behind the search form about `bilipl\modules\UserManagement\models\UserVisitLog`.
  */
 class UserVisitLogSearch extends UserVisitLog
 {

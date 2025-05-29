@@ -3,7 +3,7 @@
  *
  * @var yii\web\View $this
  * @var yii\widgets\ActiveForm $form
- * @var webvimark\modules\UserManagement\models\rbacDB\Role $model
+ * @var bilipl\modules\UserManagement\models\rbacDB\Role $model
  */
 use bilipl\modules\UserManagement\UserManagementModule;
 

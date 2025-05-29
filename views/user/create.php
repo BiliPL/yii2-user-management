@@ -5,7 +5,7 @@ use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\User $model
+ * @var bilipl\modules\UserManagement\models\User $model
  */
 
 $this->title = UserManagementModule::t('back', 'User creation');

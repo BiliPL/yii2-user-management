@@ -1,9 +1,10 @@
 {
-	"name": "bilipl/yii2-user-management",
+	"name": "bilipl/yii2-usermanagment",
 	"description": "Moduł zarządzania użytkownikami dla Yii2",
+	"type": "yii2-extension",
 	"autoload": {
 		"psr-4": {
-			"bili\\modules\\UserManagement\\": ""
+			"bilipl\\modules\\UserManagement\\": ""
 		}
 	}
 }

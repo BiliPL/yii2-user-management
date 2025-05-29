@@ -8,7 +8,7 @@ use yii\data\ActiveDataProvider;
 use bilipl\modules\UserManagement\models\User;
 
 /**
- * UserSearch represents the model behind the search form about `webvimark\modules\UserManagement\models\User`.
+ * UserSearch represents the model behind the search form about `bilipl\modules\UserManagement\models\User`.
  */
 class UserSearch extends User
 {

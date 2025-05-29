@@ -1,6 +1,6 @@
 <?php
-use webvimark\extensions\GridBulkActions\GridBulkActions;
-use webvimark\extensions\GridPageSize\GridPageSize;
+use bilipl\modules\UserManagement\GridBulkActions\GridBulkActions;
+use bilipl\modules\UserManagement\GridPageSize\GridPageSize;
 use bilipl\modules\UserManagement\components\GhostHtml;
 use bilipl\modules\UserManagement\models\rbacDB\AuthItemGroup;
 use bilipl\modules\UserManagement\models\rbacDB\Role;
@@ -13,7 +13,7 @@ use yii\widgets\Pjax;
 
 /**
  * @var yii\data\ActiveDataProvider $dataProvider
- * @var webvimark\modules\UserManagement\models\rbacDB\search\RoleSearch $searchModel
+ * @var bilipl\modules\UserManagement\models\rbacDB\search\RoleSearch $searchModel
  * @var yii\web\View $this
  */
 $this->title = UserManagementModule::t('back', 'Roles');

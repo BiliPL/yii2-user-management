@@ -1,7 +1,7 @@
 <?php
 namespace bilipl\modules\UserManagement\models\forms;
 
-use webvimark\helpers\LittleBigHelper;
+use bilipl\modules\UserManagement\helpers\LittleBigHelper;
 use bilipl\modules\UserManagement\models\User;
 use bilipl\modules\UserManagement\UserManagementModule;
 use yii\base\Model;

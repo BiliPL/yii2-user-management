@@ -23,7 +23,7 @@ class AuthHelper
 	/**
 	 * Example how to handle layouts from config file
 	 *
-	 * 'on beforeAction'=>['webvimark\modules\UserManagement\components\AuthHelper', 'layoutHandler'],
+	 * 'on beforeAction'=>['bilipl\modules\UserManagement\components\AuthHelper', 'layoutHandler'],
 	 *
 	 * @param \yii\base\ActionEvent $event
 	 */

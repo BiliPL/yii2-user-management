@@ -1,14 +1,11 @@
 <?php
-
 namespace bilipl\modules\UserManagement\controllers;
-
-
 use bilipl\modules\UserManagement\components\AuthHelper;
 use bilipl\modules\UserManagement\models\rbacDB\AbstractItem;
 use bilipl\modules\UserManagement\models\rbacDB\Permission;
 use bilipl\modules\UserManagement\models\rbacDB\Route;
 use bilipl\modules\UserManagement\models\rbacDB\search\PermissionSearch;
-use webvimark\components\AdminDefaultController;
+use bilipl\modules\UserManagement\components\AdminDefaultController;
 use bilipl\modules\UserManagement\UserManagementModule;
 use Yii;
 
@@ -17,12 +14,12 @@ class PermissionController extends AdminDefaultController
 	/**
 	 * @var Permission
 	 */
-	public $modelClass = 'webvimark\modules\UserManagement\models\rbacDB\Permission';
+	public $modelClass = 'bilipl\modules\UserManagement\models\rbacDB\Permission';
 
 	/**
 	 * @var PermissionSearch
 	 */
-	public $modelSearchClass = 'webvimark\modules\UserManagement\models\rbacDB\search\PermissionSearch';
+	public $modelSearchClass = 'bilipl\modules\UserManagement\models\rbacDB\search\PermissionSearch';
 
 	/**
 	 * @param string $id

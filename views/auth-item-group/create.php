@@ -5,7 +5,7 @@ use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\rbacDB\AuthItemGroup $model
+ * @var bilipl\modules\UserManagement\models\rbacDB\AuthItemGroup $model
  */
 
 $this->title = UserManagementModule::t('back', 'Creating permission group');

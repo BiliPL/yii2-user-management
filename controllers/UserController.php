@@ -1,8 +1,6 @@
 <?php
-
 namespace bilipl\modules\UserManagement\controllers;
-
-use webvimark\components\AdminDefaultController;
+use bilipl\modules\UserManagement\components\AdminDefaultController;
 use Yii;
 use bilipl\modules\UserManagement\models\User;
 use bilipl\modules\UserManagement\models\search\UserSearch;
@@ -16,12 +14,12 @@ class UserController extends AdminDefaultController
 	/**
 	 * @var User
 	 */
-	public $modelClass = 'webvimark\modules\UserManagement\models\User';
+	public $modelClass = 'bilipl\modules\UserManagement\models\User';
 
 	/**
 	 * @var UserSearch
 	 */
-	public $modelSearchClass = 'webvimark\modules\UserManagement\models\search\UserSearch';
+	public $modelSearchClass = 'bilipl\modules\UserManagement\models\search\UserSearch';
 
 	/**
 	 * @return mixed|string|\yii\web\Response

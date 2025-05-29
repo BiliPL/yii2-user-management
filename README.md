@@ -1,7 +1,7 @@
-User management module for Yii 2
+Moduł zarządzania użytkownikami dla Yii2
 =====
 
-`This repository is not actively maintained. If you want to add some changes, just fork it and safely use your fork.`
+`Fork bazujący na webvimark/module-user-management`
 
 Perks
 ---
@@ -134,8 +134,8 @@ Where you can go
 ```php
 
 <?php
-use bilipl\modules\UserManagement\components\GhostMenu;
-use bilipl\modules\UserManagement\UserManagementModule;
+use webvimark\modules\UserManagement\components\GhostMenu;
+use webvimark\modules\UserManagement\UserManagementModule;
 
 echo GhostMenu::widget([
 	'encodeLabels'=>false,

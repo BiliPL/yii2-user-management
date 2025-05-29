@@ -1,11 +1,9 @@
 <?php
-
 namespace bilipl\modules\UserManagement\controllers;
-
 use bilipl\modules\UserManagement\models\rbacDB\AuthItemGroup;
 use bilipl\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch;
 use Yii;
-use webvimark\components\AdminDefaultController;
+use bilipl\modules\UserManagement\components\AdminDefaultController;
 
 /**
  * AuthItemGroupController implements the CRUD actions for AuthItemGroup model.
@@ -15,12 +13,12 @@ class AuthItemGroupController extends AdminDefaultController
 	/**
 	 * @var AuthItemGroup
 	 */
-	public $modelClass = 'webvimark\modules\UserManagement\models\rbacDB\AuthItemGroup';
+	public $modelClass = 'bilipl\modules\UserManagement\models\rbacDB\AuthItemGroup';
 
 	/**
 	 * @var AuthItemGroupSearch
 	 */
-	public $modelSearchClass = 'webvimark\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch';
+	public $modelSearchClass = 'bilipl\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch';
 
 	/**
 	 * Define redirect page after update, create, delete, etc

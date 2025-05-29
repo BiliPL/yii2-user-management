@@ -1,14 +1,11 @@
 <?php
-
 namespace bilipl\modules\UserManagement\components;
-
 use bilipl\modules\UserManagement\models\rbacDB\Route;
 use bilipl\modules\UserManagement\models\User;
 use yii\base\Action;
 use Yii;
 use yii\base\ActionFilter;
 use yii\web\ForbiddenHttpException;
-
 class GhostAccessControl extends ActionFilter
 {
 	/**
@@ -112,5 +109,4 @@ class GhostAccessControl extends ActionFilter
 			throw new ForbiddenHttpException(Yii::t('yii', 'You are not allowed to perform this action.'));
 		}
 	}
-
 }

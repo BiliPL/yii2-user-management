@@ -1,8 +1,6 @@
 <?php
-
 namespace bilipl\modules\UserManagement\controllers;
-
-use webvimark\components\BaseController;
+use bilipl\modules\UserManagement\components\BaseController;
 use bilipl\modules\UserManagement\models\rbacDB\Permission;
 use bilipl\modules\UserManagement\models\rbacDB\Role;
 use bilipl\modules\UserManagement\models\User;

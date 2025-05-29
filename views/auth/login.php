@@ -1,7 +1,7 @@
 <?php
 /**
  * @var $this yii\web\View
- * @var $model webvimark\modules\UserManagement\models\forms\LoginForm
+ * @var $model bilipl\modules\UserManagement\models\forms\LoginForm
  */
 
 use bilipl\modules\UserManagement\components\GhostHtml;

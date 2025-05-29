@@ -10,7 +10,7 @@ use yii\widgets\DetailView;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\User $model
+ * @var bilipl\modules\UserManagement\models\User $model
  */
 
 $this->title = $model->username;

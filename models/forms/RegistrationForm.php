@@ -26,7 +26,7 @@ class RegistrationForm extends Model
 			[['username', 'password', 'repeat_password'], 'trim'],
 
 			['username', 'unique',
-				'targetClass'     => 'webvimark\modules\UserManagement\models\User',
+				'targetClass'     => 'bilipl\modules\UserManagement\models\User',
 				'targetAttribute' => 'username',
 			],
 

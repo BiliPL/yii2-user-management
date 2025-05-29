@@ -1,9 +1,7 @@
 <?php
-
 namespace bilipl\modules\UserManagement\models;
-
-use webvimark\helpers\LittleBigHelper;
-use webvimark\helpers\Singleton;
+use bilipl\modules\UserManagement\helpers\LittleBigHelper;
+use bilipl\modules\UserManagement\helpers\Singleton;
 use bilipl\modules\UserManagement\components\AuthHelper;
 use bilipl\modules\UserManagement\components\UserIdentity;
 use bilipl\modules\UserManagement\models\rbacDB\Role;

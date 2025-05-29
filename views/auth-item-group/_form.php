@@ -6,8 +6,8 @@ use yii\bootstrap5\ActiveForm;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\rbacDB\AuthItemGroup $model
- * @var yii\bootstrap\ActiveForm $form
+ * @var bilipl\modules\UserManagement\models\rbacDB\AuthItemGroup $model
+ * @var yii\bootstrap5\ActiveForm $form
  */
 ?>
 <div class="auth-item-group-form">

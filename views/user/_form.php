@@ -4,12 +4,12 @@ use bilipl\modules\UserManagement\models\User;
 use bilipl\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 use yii\bootstrap5\ActiveForm;
-use webvimark\extensions\BootstrapSwitch\BootstrapSwitch;
+use bilipl\extensions\BootstrapSwitch\BootstrapSwitch;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\User $model
- * @var yii\bootstrap\ActiveForm $form
+ * @var bilipl\modules\UserManagement\models\User $model
+ * @var yii\bootstrap5\ActiveForm $form
  */
 ?>
 

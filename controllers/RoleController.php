@@ -1,12 +1,10 @@
 <?php
-
 namespace bilipl\modules\UserManagement\controllers;
-
 use bilipl\modules\UserManagement\components\AuthHelper;
 use bilipl\modules\UserManagement\models\rbacDB\Permission;
 use bilipl\modules\UserManagement\models\rbacDB\Role;
 use bilipl\modules\UserManagement\models\rbacDB\search\RoleSearch;
-use webvimark\components\AdminDefaultController;
+use bilipl\modules\UserManagement\components\AdminDefaultController;
 use bilipl\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\rbac\DbManager;
@@ -16,12 +14,12 @@ class RoleController extends AdminDefaultController
 	/**
 	 * @var Role
 	 */
-	public $modelClass = 'webvimark\modules\UserManagement\models\rbacDB\Role';
+	public $modelClass = 'bilipl\modules\UserManagement\models\rbacDB\Role';
 
 	/**
 	 * @var RoleSearch
 	 */
-	public $modelSearchClass = 'webvimark\modules\UserManagement\models\rbacDB\search\RoleSearch';
+	public $modelSearchClass = 'bilipl\modules\UserManagement\models\rbacDB\search\RoleSearch';
 
 	/**
 	 * @param string $id

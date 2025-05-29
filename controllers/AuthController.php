@@ -1,8 +1,6 @@
 <?php
-
 namespace bilipl\modules\UserManagement\controllers;
-
-use webvimark\components\BaseController;
+use bilipl\modules\UserManagement\components\BaseController;
 use bilipl\modules\UserManagement\components\UserAuthEvent;
 use bilipl\modules\UserManagement\models\forms\ChangeOwnPasswordForm;
 use bilipl\modules\UserManagement\models\forms\ConfirmEmailForm;
