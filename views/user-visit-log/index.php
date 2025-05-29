@@ -1,6 +1,5 @@
 <?php
-//use bilipl\modules\UserManagement\picker\DateRangePicker;
-use bilipl\modules\UserManagement\picker\DateRangePicker;
+use bilipl\modules\UserManagement\daterangepicker\DateRangePicker;
 use bilipl\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 use yii\widgets\Pjax;

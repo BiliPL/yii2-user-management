@@ -1,5 +1,5 @@
 <?php
-namespace bilipl\modules\UserManagement\picker;
+namespace bilipl\modules\UserManagement\daterangepicker;
 
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
