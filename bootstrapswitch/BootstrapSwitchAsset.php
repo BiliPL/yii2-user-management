@@ -1,6 +1,6 @@
 <?php
 
-namespace bilipl\modules\UserManagement\bootstrap;
+namespace bilipl\modules\UserManagement\bootstrapswitch;
 
 use yii\web\AssetBundle;
 
