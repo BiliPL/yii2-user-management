@@ -8,7 +8,7 @@
 use bilipl\modules\UserManagement\components\GhostHtml;
 use bilipl\modules\UserManagement\models\rbacDB\Role;
 use bilipl\modules\UserManagement\UserManagementModule;
-use yii\bootstrap\BootstrapPluginAsset;
+use yii\bootstrap5\BootstrapPluginAsset;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 

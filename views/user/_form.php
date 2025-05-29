@@ -3,7 +3,7 @@
 use bilipl\modules\UserManagement\models\User;
 use bilipl\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use webvimark\extensions\BootstrapSwitch\BootstrapSwitch;
 
 /**

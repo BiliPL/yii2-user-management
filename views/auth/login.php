@@ -6,7 +6,7 @@
 
 use bilipl\modules\UserManagement\components\GhostHtml;
 use bilipl\modules\UserManagement\UserManagementModule;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use yii\helpers\Html;
 ?>
 

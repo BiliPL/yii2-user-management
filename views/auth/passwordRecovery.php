@@ -1,7 +1,7 @@
 <?php
 
 use bilipl\modules\UserManagement\UserManagementModule;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use yii\captcha\Captcha;
 use yii\helpers\Html;
 
