@@ -1,6 +1,5 @@
 <?php
 namespace bilipl\modules\UserManagement\bootstrapswitch;
-
 use yii\base\Widget;
 use yii\helpers\Json;
 

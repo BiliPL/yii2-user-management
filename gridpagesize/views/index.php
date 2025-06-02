@@ -4,7 +4,7 @@
  */
 ?>
 <?php
-use bilipl\modules\UserManagement\GridPageSize\GridPageSize;
+use bilipl\modules\UserManagement\gridpagesize\GridPageSize;
 use yii\helpers\Html;
 use yii\web\View;
 
