@@ -1,7 +1,5 @@
 <?php
-
 namespace bilipl\modules\UserManagement\daterangepicker;
-
 use yii\web\AssetBundle;
 
 class DateRangePickerAsset extends AssetBundle

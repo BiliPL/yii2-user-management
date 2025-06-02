@@ -1,6 +1,6 @@
 <?php
-use bilipl\modules\UserManagement\GridBulkActions\GridBulkActions;
-use bilipl\modules\UserManagement\GridPageSize\GridPageSize;
+use bilipl\modules\UserManagement\gridbulkactions\GridBulkActions;
+use bilipl\modules\UserManagement\gridpagesize\GridPageSize;
 use bilipl\modules\UserManagement\components\GhostHtml;
 use bilipl\modules\UserManagement\models\rbacDB\AuthItemGroup;
 use bilipl\modules\UserManagement\models\rbacDB\Role;

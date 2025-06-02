@@ -1,5 +1,5 @@
 <?php
-namespace bilipl\modules\UserManagement\GridPageSize;
+namespace bilipl\modules\UserManagement\gridpagesize;
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
